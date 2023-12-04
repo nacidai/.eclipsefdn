@@ -2,7 +2,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('eclipse-sdv-blueprints') {
   settings+: {
-    billing_email: "webmaster@eclipse-foundation.org",
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "",
     members_can_change_project_visibility: false,
@@ -48,7 +47,7 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/",
-      homepage: "https://eclipse-sdv-blueprints.github.io/blueprints-website/",
+      homepage: "https://sdv-blueprints.eclipse.dev",
       web_commit_signoff_required: false,
       workflows+: {
         actions_can_approve_pull_request_reviews: false,
@@ -102,6 +101,8 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
+      description: "Take ROS, F1Tenth and a race track and see where it all gets you!",
+      homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
         actions_can_approve_pull_request_reviews: false,
