@@ -5,9 +5,7 @@ orgs.newOrg('eclipse-sdv-blueprints') {
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "",
     name: "Eclipse SDV Blueprints",
-    packages_containers_internal: false,
     readers_can_create_discussions: true,
-    two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
@@ -90,6 +88,8 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
+      description: "A showcase for integrating Eclipse Software Defined Vehicle (SDV) and Eclipse Dataspaces for insurance applications. Enable exchange of vehicle and risk events to support risk assessment, underwriting processes and customer experiences",
+      homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
         actions_can_approve_pull_request_reviews: false,
