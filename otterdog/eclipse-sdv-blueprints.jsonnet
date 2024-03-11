@@ -21,7 +21,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -32,7 +31,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       description: "Blueprints project management",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -47,7 +45,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "https://sdv-blueprints.eclipse.dev",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
       environments: [
@@ -68,7 +65,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -80,7 +76,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -92,7 +87,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -104,7 +98,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
@@ -114,7 +107,6 @@ orgs.newOrg('eclipse-sdv-blueprints') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
       workflows+: {
-        actions_can_approve_pull_request_reviews: false,
         default_workflow_permissions: "write",
       },
     },
