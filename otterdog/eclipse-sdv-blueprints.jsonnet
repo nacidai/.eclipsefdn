@@ -66,6 +66,17 @@ orgs.newOrg('eclipse-sdv-blueprints') {
         default_workflow_permissions: "write",
       },
     },
+    orgs.newRepo('service-to-signal') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "The service-to-signal blueprint is an example to showcase how to use the Eclipse uProtocol (https://github.com/eclipse-uprotocol) to make a vehicle service available in a vehicle network and connect the service implementation with potential physical hardware",
+      homepage: "",
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
     orgs.newRepo('fleet-management') {
       allow_merge_commit: true,
       allow_update_branch: false,
