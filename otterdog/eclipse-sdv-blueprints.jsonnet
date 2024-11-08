@@ -2,7 +2,7 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('eclipse-sdv-blueprints') {
   settings+: {
-    description: "",
+    description: "A collaborative initiative led by Eclipse SDV members to bring the 'software defined vehicle' concepts to life. A crucial aspect of each blueprint is to ensure users can easily reproduce it on their own. This requires well-written and highly clear documentation. Users can utilize blueprints as they are, for inspiration or as a foundation to customize and meet their specific needs.",
     name: "Eclipse SDV Blueprints",
     web_commit_signoff_required: false,
     workflows+: {
