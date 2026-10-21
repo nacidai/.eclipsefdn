@@ -99,6 +99,17 @@ orgs.newOrg('automotive.sdv-blueprints', 'eclipse-sdv-blueprints') {
         default_workflow_permissions: "write",
       },
     },
+    orgs.newRepo('scenario-orchestration') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Orchestrates whole vehicle scenarios across multiple nodes with Pullpiri, Timpani and Kuksa, driven by VSS signals. A hardware demo shows time-triggered workloads keeping deterministic timing under CPU load where conventional workloads drift.",
+      homepage: "",
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
     orgs.newRepo('service-to-signal') {
       allow_merge_commit: true,
       allow_update_branch: false,
